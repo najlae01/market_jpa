@@ -88,9 +88,5 @@ Mini Market Application Based on  JPA and MVC2
     
    ## Listing orderlines By Order:
   
-   <img align="left" width="1000px" src="readme-images/list_orderlines_by_order2.png" />
-  
-   ## Listing orders after adding the second orderline associated with the order with Id 7:
-  
-  <img align="left" width="1000px" src="readme-images/list_orders3_orderline2_added.png" />
+   <img align="left" width="1000px" src="readme-images/list_ordelines_by_order2.png" />
   
