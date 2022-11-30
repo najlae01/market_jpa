@@ -14,17 +14,11 @@ Mini Market Application Based on  JPA and MVC2
   
   <img align="left" width="1000px" src="readme-images/add_client1.png" />
   
+  <img align="left" width="1000px" src="readme-images/client_added1.png" />
+  
   ## Listing clients :
   
   <img align="left" width="1000px" src="readme-images/list_clients1.png" />
-  
-  ## Updating the client :
-  
-  <img align="left" width="1000px" src="readme-images/update_client1.png" />
-  
-  ## Listing clients :
-   Client is updated.
-  <img align="left" width="1000px" src="readme-images/client_updated1.png" />
   
   ## Adding another client to the database :
   
@@ -32,7 +26,7 @@ Mini Market Application Based on  JPA and MVC2
   
   ## Listing clients :
   
-  <img align="left" width="1000px" src="readme-images/list_clients1.png" />
+  <img align="left" width="1000px" src="readme-images/list_clients2.png" />
   
   ## Deleting the second client :
   
