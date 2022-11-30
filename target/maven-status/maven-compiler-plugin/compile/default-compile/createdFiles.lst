@@ -1,0 +1,12 @@
+fstt\org\market\entities\persistence\Product.class
+fstt\org\market\service\OrderlineRepository.class
+fstt\org\market\entities\persistence\OrderC.class
+fstt\org\market\service\CategoryRepository.class
+fstt\org\market\entities\persistence\Category.class
+fstt\org\market\service\OrderRepository.class
+fstt\org\market\entities\persistence\Test.class
+fstt\org\market\service\ProductRepository.class
+fstt\org\market\controllers\ClientController.class
+fstt\org\market\entities\persistence\Orderline.class
+fstt\org\market\service\ClientRepository.class
+fstt\org\market\entities\persistence\Client.class
