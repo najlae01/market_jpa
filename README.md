@@ -38,21 +38,17 @@ Mini Market Application Based on  JPA and MVC2
   
    <img align="left" width="1000px" src="readme-images/update_category1.png" />
   
-   ## Listing products :
+   ## Listing categories :
    Category is updated.
    <img align="left" width="1000px" src="readme-images/category_updated1.png" />
-  
-   ## Adding another category to the database :
-  
-   <img align="left" width="1000px" src="readme-images/add_category2.png" />
-  
-   ## Listing categories :
-  
-   <img align="left" width="1000px" src="readme-images/list_categories2.png" />
   
    ## Deleting the category with id = 2 :
   
    <img align="left" width="1000px" src="readme-images/delete_category1.png" />
+   
+   ## Listing categories :
+  
+   <img align="left" width="1000px" src="readme-images/list_categories2.png" />
   
   ## Adding a product to the database :
   
