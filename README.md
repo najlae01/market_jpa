@@ -38,6 +38,7 @@ Mini Market Application Based on  JPA and MVC2
   
    <img align="left" width="1000px" src="readme-images/update_category1.png" />
    
+   
    <img align="left" width="1000px" src="readme-images/category_updated1.png" />
   
    ## Deleting the category with id = 2 :
@@ -80,13 +81,15 @@ Mini Market Application Based on  JPA and MVC2
   
    <img align="left" width="1000px" src="readme-images/update_orderline1.png" />
    
+   ## Listing orderlines By Order After Update:
+   
    <img align="left" width="1000px" src="readme-images/list_ordelines_by_order_updated1.png" />
    
    ## Adding another orderline to the same order :
    
    <img align="left" width="1000px" src="readme-images/add_orderline2.png" />
     
-   ## Listing orderlines By Order:
+   ## Listing Orderlines By Order:
   
    <img align="left" width="1000px" src="readme-images/list_ordelines_by_order2.png" />
   
