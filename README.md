@@ -55,11 +55,7 @@ Mini Market Application Based on  JPA and MVC2
   
   ## Listing products By Category:
   
-  <img align="left" width="1000px" src="readme-images/list_products_by_category1.png" />
-  
-   ## Updating the product :
-  
-   <img align="left" width="1000px" src="readme-images/update_product1.png" />
+  <img align="left" width="1000px" src="readme-images/list_products_by_category1.png" />  
   
    ## Adding an order to the database :
    Available clients in the database are listed in the select tag.
