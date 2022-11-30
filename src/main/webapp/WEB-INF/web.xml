@@ -20,7 +20,15 @@
 		<servlet-name>OrderController</servlet-name>
 		<servlet-class>fstt.org.market.controllers.OrderController</servlet-class>
 	</servlet>
+	<servlet>
+		<servlet-name>OrderlineController</servlet-name>
+		<servlet-class>fstt.org.market.controllers.OrderlineController</servlet-class>
+	</servlet>
 	
+	<servlet-mapping>
+		<servlet-name>OrderlineController</servlet-name>
+		<url-pattern>/orderline</url-pattern>
+	</servlet-mapping>
 	<servlet-mapping>
 		<servlet-name>OrderController</servlet-name>
 		<url-pattern>/order</url-pattern>

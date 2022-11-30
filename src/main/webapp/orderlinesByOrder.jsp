@@ -1,5 +1,4 @@
 <%@page import="java.util.List"%>
-<%@page import="fstt.org.market.entities.persistence.OrderC"%>
 <%@page import="fstt.org.market.entities.persistence.Orderline"%>
 <%@page import="java.util.ListIterator"%>
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
@@ -12,7 +11,7 @@
 </head>
 <body>
 	<%
-	List<OrderC> list = (List<OrderC>) request.getAttribute("list");
+	List<Orderline> list = (List<Orderline>) request.getAttribute("list");
 	%>
 
 	<table>
@@ -20,15 +19,15 @@
 			<tr>
 				<th>Id</th>
 
-				<th>Date</th>
+				<th>Quantity</th>
 
-				<th>Client</th>
+				<th>Product Name</th>
 
-				<th>OrderLines</th>
-
-				<th>Delete</th>
+				<th>Order Id</th>
 
 				<th>Update</th>
+				
+				<th>Delete</th>
 			</tr>
 		</thead>
 		<tbody>
@@ -37,14 +36,13 @@
 			%>
 			<tr>
 
-				<td><%=list.get(i).getOrderId()%></td>
-				<td><%=list.get(i).getOrderDate()%></td>
-				<td><%=list.get(i).getClient().getClientName()%></td>
-				<td><a href="orderline?action=list&id=<%=list.get(i).getOrderId()%>">
-						View orderlines </a></td>
-				<td><a href="order?action=delete&id=<%=list.get(i).getOrderId()%>">
+				<td><%=list.get(i).getOrderlineId()%></td>
+				<td><%=list.get(i).getOrderlineQuantity()%></td>
+				<td><%=list.get(i).getOrderlineProduct().getProductName()%></td>
+				<td><%=list.get(i).getOrderlineOrder().getOrderId()%></td>
+				<td><a href="orderline?action=delete&id=<%=list.get(i).getOrderlineId()%>">
 						delete </a></td>
-				<td><a href="order?action=update&id=<%=list.get(i).getOrderId()%>">
+				<td><a href="orderline?action=update&id=<%=list.get(i).getOrderlineId()%>">
 						update </a></td>
 
 			</tr>

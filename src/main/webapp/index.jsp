@@ -20,8 +20,6 @@
 	</br>
 	<a href="order?action=save"> Add Order </a>
 	</br>
-	<a href="orderline?action=list"> List Orderlines </a>
-	</br>
 	<a href="orderline?action=save"> Add Orderline </a>
 </body>
 </html>
